@@ -35,4 +35,4 @@ steps:
 - task: CopyFiles@2
   inputs:
     Contents: '**\$(BuildConfiguration)\**\?(*.exe|*.dll|*.pdb)'
-    TargetFolder: '$(BuildArtifactStagingDirectory)'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
