@@ -7,8 +7,8 @@ trigger:
 - 
 
 pool:
-   # vmImage:'ubuntu-16.04.6 LTS'
-   name: 'MyAgentPool'
+    vmImage:'windows-latest'
+   #name: 'MyAgentPool'
 
 variables:
   solution: '**/*.sln'
