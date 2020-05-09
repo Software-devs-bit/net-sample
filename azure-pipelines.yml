@@ -8,7 +8,7 @@ trigger:
 
 pool:
     name: 'Azure Pipelines'
-    vmname: 'windows-latest'
+    vmImage: 'windows-latest'
 variables:
   solution: '**/*.sln'
   buildPlatform: 
